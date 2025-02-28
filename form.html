@@ -1,0 +1,61 @@
+<html>
+<head>
+<link href="style4.css" rel="stylesheet">
+</head>
+<body id="so">
+<form class="form" action="pollv.php" method="POST" onsubmit="return validateForm()">
+<fieldset height="50" width="50" id="fie">
+<legend id="Send">Opinion poll</legend>
+<label>Name:*</br>
+<input type="text" id="fsname"  name="fsname" oninput="writeNow()" onkeyup="notWriteNow()"  placeholder="Your name" ></label></br></br>
+
+
+
+
+<label>Email:*</br><input type="email" id= "email" oninput="writeNow()" onkeyup="notWriteNow()" name="email" placeholder="Your email address" ></label></br></br>
+<label>How did you find our website:*</br><input type="radio" id="help" name="form">Very helpful</label>
+</br>
+<input type="radio" id="good" name="form"  >Good</label>
+</br>
+<input type="radio" id="bad" name="form"  >Not bad</label></br></br>
+
+
+<label>Top fact about solar system:*</br><input type="checkbox" id="Neptune has a moon that’s a lot like Pluto" name="ch">Neptune has a moon that’s a lot like Pluto</label></br>
+<input type="checkbox" id="there is water everywhere" name="ch">There is water everywhere</label></br>
+<input type="checkbox" id="THERE ARE MOUNTAINS ON PLUTO" name="ch">There are mountains on Pluto</label></br>
+<input type="checkbox" id="all the above" name="ch">All the above</label></br></br>
+
+<label>Comment:*</br><textarea id="ta" name="name" height="70" width="80"></textarea>
+</fieldset></br>
+<input type="submit" id="sb1" value="Submit">
+<input type="reset" id="rs1" value="Reset">
+</form>
+<script>
+  function validateForm() {
+      var email = document.getElementById('email').value;
+      var fsname = document.getElementById('fsname').value;
+      if (email == "") {
+          alert("Email must be filled out");
+          return false;
+      }else if(fsname == ""){
+          alert("Name must be filled out");
+          return false;
+      }else{
+          return true;
+      }
+  }
+  function writeNow(){
+      document.getElementById('Send').style.color = "navy";
+      document.getElementById('Send').innerText = "typing...";
+  }
+  function notWriteNow(){
+      document.getElementById('Send').style.color = "#000000";
+      document.getElementById('Send').innerText = "Opinion poll";
+  }
+</script>
+
+
+<a href="file:///C:/Users/ASUS/Downloads/solarsystem01/solarsystem1/hmsolar%20(1).html" title="home page">
+<img class="hmp" src="r3.png" height="30" width="30"></a>
+</body>
+</html>
