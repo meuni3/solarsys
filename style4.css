@@ -1,0 +1,62 @@
+body {
+background-color:silver;
+}
+
+input[type=text] {
+  border: 3px solid navy;
+  border-radius: 4px;
+  width: 22%;
+  height: 5%;
+  border-radius: 12px;
+}
+input[type=email] {
+  border: 3px solid navy;
+  border-radius: 4px;
+  width: 22%;
+  height: 5%;
+  border-radius: 12px;
+}
+#so { font-size: 20px;}
+
+#sb1{
+  background-color:white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  padding: 8px 12px;
+  border-radius: 12px;
+
+}
+
+#sb1:hover{ background-color: navy;
+color:white;
+
+}
+#rs1{
+  background-color:white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  padding: 8px 12px;
+  border-radius: 12px;
+
+}
+
+#rs1:hover{ background-color: navy;
+color:white;
+}
+#ta {
+  border: 3px solid navy;
+  border-radius: 4px;
+  width: 20%;
+  height: 8%;
+  border-radius: 12px;
+}
+input[type="checkbox"]{
+outline: 2px solid navy;
+accent-color: azure;  
+}
+#fie {border: 2px solid;
+}
+
+.hmp{position:relative;
+left:3px;
+top:80px;}
