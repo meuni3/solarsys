@@ -1,0 +1,83 @@
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+	background-color:hsl(0, 0%, 71%);
+  text-shadow: 2px 2px 4px #000000;
+  
+}
+body {
+	text-align: justify;
+    color: white;  
+background-color: black;
+  font-size: 17px;
+}
+
+p {
+  text-align: justify;
+    font-family: "Times New Roman", Times, serif;
+  }
+h4,h2,h3 {
+	text-indent: 50px;
+	  text-decoration: underline silver;
+	
+}
+ul{list-style-type: square;}
+
+ol {
+	list-style-type: decimal-leading-zero;}
+	
+	h1:hover{color:hsl(0, 0%, 24%);}
+	table, th, td {
+  border: 1px solid;
+}
+
+table {
+width: 35%;}
+  th, td {
+  padding: 8px;
+  text-align: left;}
+  
+  th:hover {
+  background-color:black;
+  color: white;
+}
+  
+  tr:hover {background-color:white;
+  color: black;}
+  
+  #vd { position: relative;
+  left: 860px;
+  bottom: 230px;
+  height: 400px;
+  width: 550px;
+  }
+#dd2 { position: relative; 
+right: 500px;
+bottom: 50px;
+transition: 1000s;
+}
+#dd2:hover{transform:rotate(41000deg) ;
+height: 320px;
+width: 320px;}
+
+#tb{position: relative;
+top:20px;
+left:20px;}
+
+#info2{position: relative;
+bottom :200px;
+left:10px;}
+
+#info0{position: relative;
+bottom:210px;
+left:10px;
+color:darkgray;
+}
+
+
+#info0:hover{color:ghostwhite;
+transition: 2s;
+font-size: 24px;
+
+
+}

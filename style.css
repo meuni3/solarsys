@@ -1,0 +1,110 @@
+body{background-image:url(solar2.jpg)
+}
+h1:first-letter{font-size:60px;}
+h1{color:silver;
+font-family:'georgia' ,serif;
+}
+
+h1{position:relative;
+left:10;}
+p{padding:20px;
+margin-bottom:15px;
+color:silver;
+font-size:17px;}
+p
+{
+	border-style:dotted dashed solid double;}
+
+#sun{position:relative;
+bottom:20px;
+right:39px;
+transition:2s;}
+#sun:hover{ width:300px;
+height:300px;
+TRANSFORM:rotate(100deg);}
+
+
+.A{position:relative;
+bottom:50px;
+right:84px;
+transition:2s;}
+
+.A:hover{ width:200px;
+height:200px;
+TRANSFORM:rotate(100deg);}
+
+
+
+.B{position:relative;
+bottom:30px;
+right:110px;
+transition:2s;}
+
+.B:hover{ width:200px;
+height:200px;
+TRANSFORM:rotate(100deg);}
+
+.C{position:relative;
+top:10px;
+right:140px;
+transition:2s;}
+.c:hover{ width:200px;
+height:200px;
+TRANSFORM:rotate(100deg);}
+
+.D{position:relative;
+top:50px;
+right:180px;
+transition:2S;}
+.D:hover{ width:200px;
+height:200px;
+TRANSFORM:rotate(100deg);}
+
+
+#Jupiter{position:relative;
+top:50px;
+right:220px;
+transition:2S;}
+#Jupiter:hover{ width:150px;
+height:150px;
+TRANSFORM:rotate(100deg);}
+
+
+.F{position:relative;
+top:90px;
+right:250px;
+transition:2S;}
+.F:hover{ width:200px;
+height:200px;
+TRANSFORM:rotate(190deg);}
+
+
+.G{position:relative;
+bottom:70px;
+left:1160px;
+transition:2S;}
+.G:hover{ width:135px;
+height:135px;
+TRANSFORM:rotate(100deg);}
+
+
+.H{position:relative;
+bottom:70px;
+left:1178px;
+transition:2S;}
+.H:hover{ width:130px;
+height:130px;
+TRANSFORM:rotate(100deg);}
+
+
+.O{position:relative;
+top:30px;
+right:240px;}
+
+#us{position:relative;
+top:20px;
+right:230px;
+color:silver;}
+
+
+
